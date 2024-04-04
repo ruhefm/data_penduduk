@@ -32,7 +32,7 @@ const TambahPenduduk = () => {
     month: 'long',
     day: 'numeric',
   });
-  const [rw, setRW] = useState(7);
+  const [rw, setRW] = useState('7');
   const [rt, setRT] = useState(1);
   const [date, setDate] = useState(currentDate);
   const [L_Tetap, setLTetap] = useState(0);
