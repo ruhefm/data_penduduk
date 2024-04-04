@@ -1,6 +1,6 @@
 import supabase from '../../utils/supabase';
-
-export default async function handler(req, res) {
+import { NextApiRequest, NextApiResponse } from 'next';
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
     const body = req.body;
     const { data, error } = await supabase

@@ -45,7 +45,7 @@ const TambahPenduduk = () => {
   const [P_Lahir, setPLahir] = useState('');
   const [L_Meninggal, setLMeninggal] = useState('');
   const [P_Meninggal, setPMeninggal] = useState('');
-  const [downloadUrl, setDownloadUrl] = useState(null);
+  const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
 
   const handleDownload = async () => {
     try {
@@ -72,7 +72,7 @@ const TambahPenduduk = () => {
   };
 
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const response = await fetch('/api/postPenduduk', {
