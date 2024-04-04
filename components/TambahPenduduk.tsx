@@ -150,7 +150,7 @@ const test = 7;
      
 
 
-<label className="block text-gray-700 text-sm font-bold mt-2">
+<label className="block text-gray-700 text-sm font-bold mt-2 text-center md:text-left">
         Penduduk Tetap
       </label>
       <div className="grid grid-cols-2 gap-4 ">
@@ -186,7 +186,7 @@ const test = 7;
     </div>
     
 
-    <label className="block text-gray-700 text-sm font-bold mt-2">
+    <label className="block text-gray-700 text-sm font-bold mt-2 text-center md:text-left">
         Penduduk Musim_Datang
       </label>
       <div className="grid grid-cols-2 gap-4 ">
@@ -222,7 +222,7 @@ const test = 7;
     </div>
     
 
-    <label className="block text-gray-700 text-sm font-bold mt-2">
+    <label className="block text-gray-700 text-sm font-bold mt-2 text-center md:text-left">
         Penduduk Musim_Keluar
       </label>
       <div className="grid grid-cols-2 gap-4 ">
@@ -258,7 +258,7 @@ const test = 7;
     </div>
     
 
-    <label className="block text-gray-700 text-sm font-bold mt-2">
+    <label className="block text-gray-700 text-sm font-bold mt-2 text-center md:text-left">
         Penduduk Lahir
       </label>
       <div className="grid grid-cols-2 gap-4 ">
@@ -294,7 +294,7 @@ const test = 7;
     </div>
     
 
-    <label className="block text-gray-700 text-sm font-bold mt-2">
+    <label className="block text-gray-700 text-sm font-bold mt-2 text-center md:text-left">
         Penduduk Meninggal
       </label>
       <div className="grid grid-cols-2 gap-4 ">
