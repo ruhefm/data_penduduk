@@ -35,16 +35,16 @@ const TambahPenduduk = () => {
   const [rw, setRW] = useState('7');
   const [rt, setRT] = useState('1');
   const [date, setDate] = useState(currentDate);
-  const [L_Tetap, setLTetap] = useState('0');
-  const [P_Tetap, setPTetap] = useState('0');
-  const [L_Musim_Datang, setLMusim_Datang] = useState('0');
-  const [P_Musim_Datang, setPMusim_Datang] = useState('0');
-  const [L_Musim_Keluar, setLMusim_Keluar] = useState('0');
-  const [P_Musim_Keluar, setPMusim_Keluar] = useState('0');
-  const [L_Lahir, setLLahir] = useState('0');
-  const [P_Lahir, setPLahir] = useState('0');
-  const [L_Meninggal, setLMeninggal] = useState('0');
-  const [P_Meninggal, setPMeninggal] = useState('0');
+  const [L_Tetap, setLTetap] = useState('');
+  const [P_Tetap, setPTetap] = useState('');
+  const [L_Musim_Datang, setLMusim_Datang] = useState('');
+  const [P_Musim_Datang, setPMusim_Datang] = useState('');
+  const [L_Musim_Keluar, setLMusim_Keluar] = useState('');
+  const [P_Musim_Keluar, setPMusim_Keluar] = useState('');
+  const [L_Lahir, setLLahir] = useState('');
+  const [P_Lahir, setPLahir] = useState('');
+  const [L_Meninggal, setLMeninggal] = useState('');
+  const [P_Meninggal, setPMeninggal] = useState('');
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
 
   const handleDownload = async () => {
